@@ -1,0 +1,15 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- README.md	(revision 95733e32f33d4f2910417900f8f4b5ce7b158aaa)
++++ README.md	(date 1557680985763)
+@@ -5,5 +5,5 @@
+ * 更新内容
+     1. 更新城市模块数据
+     2. 更新
+-    3. 更新1111
++    3. 更新1111s
+   
+\ No newline at end of file
