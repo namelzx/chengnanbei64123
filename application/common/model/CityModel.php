@@ -32,6 +32,13 @@ class CityModel extends Model
         return $res->id;
     }
 
+    /**
+     * @param $id
+     * @return int
+     * @throws \think\Exception
+     * @throws \think\exception\PDOException
+     * 删除城市
+     */
     public static function getIDByDelete($id)
     {
         $res = self::where('id',$id)->delete();
