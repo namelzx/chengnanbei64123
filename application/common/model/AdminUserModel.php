@@ -17,7 +17,7 @@ use think\Model;
 class AdminUserModel extends Model
 {
     protected $table = 't_admin_user';
-
+//
     protected $createTime = 'create_time';
 
 }
