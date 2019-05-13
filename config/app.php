@@ -143,7 +143,6 @@ return [
     // 异常处理handle类 留空使用 \think\exception\Handle
     'exception_handle'       => '',
     'common'=>[
-     'url'=>'http://127.0.0.1:8000'
+     'url'=>'http://aa.8yueguihua.com'
     ]
-
 ];

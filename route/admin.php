@@ -34,8 +34,20 @@ Route::group('admin/', function () {
     Route::post('housing/postDataByStauts', 'admin/housing/postDataByStauts');
     Route::get('housing/getIdByDetails', 'admin/housing/getIdByDetails');
 
-
-
+    /**
+     * 房间设置分组
+     */
+    Route::get('Facilities/getDataByList', 'admin/Facilities/getDataByList');
+    Route::post('Facilities/postDataByAdd', 'admin/Facilities/postDataByAdd');
+    Route::get('Facilities/getIdByDelete', 'admin/Facilities/getIdByDelete');
+    Route::post('Facilities/postDataByStauts', 'admin/Facilities/postDataByStauts');
+    Route::get('Facilities/getIdByDetails', 'admin/Facilities/getIdByDetails');
+    //房间属性管理
+    Route::get('FacilitiesAttr/getDataByList', 'admin/FacilitiesAttr/getDataByList');
+    Route::post('FacilitiesAttr/postDataByAdd', 'admin/FacilitiesAttr/postDataByAdd');
+    Route::get('FacilitiesAttr/getIdByDelete', 'admin/FacilitiesAttr/getIdByDelete');
+    Route::post('FacilitiesAttr/postDataByStauts', 'admin/FacilitiesAttr/postDataByStauts');
+    Route::get('FacilitiesAttr/getIdByDetails', 'admin/FacilitiesAttr/getIdByDetails');
 });
 
 Route::get('hello/:name', 'index/hello');
