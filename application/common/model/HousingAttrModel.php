@@ -22,7 +22,7 @@ class HousingAttrModel extends Model
     protected $createTime = 'create_time';
 
 
-    //添加数据
+    //添加数据1
     public static function postDataByAll($data)
     {
 
