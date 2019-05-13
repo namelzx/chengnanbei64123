@@ -21,6 +21,7 @@ class HousingAttrModel extends Model
     protected $table = 't_housing_attr';
     protected $createTime = 'create_time';
 
+
     //添加数据
     public static function postDataByAll($data)
     {
