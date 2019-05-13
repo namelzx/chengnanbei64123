@@ -23,6 +23,7 @@ class HousingAttrModel extends Model
 
 
     //添加数据1
+
     public static function postDataByAll($data)
     {
 
